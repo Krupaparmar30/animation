@@ -16,7 +16,7 @@ class myApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home:secPage(),
+      home:HomeScreen(),
     );
   }
 }
