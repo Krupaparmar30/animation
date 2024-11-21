@@ -3,6 +3,17 @@
 A new Flutter project.
 
 ## Getting Started
+# Drek & Drop
+it sounds like you're interested in creating a drag-and-drop activity or quiz related to animals! Here’s an example of a drag-and-drop quiz concept for animals:
+
+Quiz Layout Example:
+Animals and Names to Include:
+Lion 🦁
+Cat 😺
+Dog 🐕
+Bear 🐻
+Horse 🐎
+Monkey🐒 
   <img src="https://github.com/user-attachments/assets/66b07743-0135-49cc-9c6a-9f53631c5c18" height=28% width=32%>
   
 https://github.com/user-attachments/assets/6420505a-5811-4458-be3b-33e09f86d1c2
