@@ -1,3 +1,5 @@
+import 'package:animation/screens/HeroPage/HeroPageFirst/HeroPageFirst.dart';
+import 'package:animation/screens/HeroPage/heroPageSec/heroPageSec.dart';
 import 'package:animation/screens/homePage/homePage.dart';
 import 'package:animation/screens/secoundPage/secoundPage.dart';
 import 'package:flutter/cupertino.dart';
@@ -16,7 +18,10 @@ class myApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home:HomeScreen(),
+     routes: {
+        '/':(context)=>HeroPageFirst(),
+       '/details':(context)=>secHeroPage()
+     },
     );
   }
 }
