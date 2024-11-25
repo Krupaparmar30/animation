@@ -1,3 +1,4 @@
+import 'package:animation/screens/HeroPage/heroPageSec/heroPageSec.dart';
 import 'package:animation/utils/list.dart';
 import 'package:flutter/material.dart';
 
@@ -37,20 +38,23 @@ class _HeroPageFirstState extends State<HeroPageFirst> {
                   crossAxisCount: 2, mainAxisSpacing: 8),
               itemCount: 10,
               itemBuilder: (context, index) {
-                return Hero(
-                  tag: 'photo$index',
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: GestureDetector(
-                      onTap: () {
-                        setState(() {
-                          selIndex = index;
-                        });
-                        Navigator.of(context)
-                            .pushNamed('/details', arguments: jewList[index]);
-
-                        //  Navigator.of(context).pushNamed('/details');
-                      },
+                return Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        selIndex = index;
+                      });
+                      // Navigator.of(context)
+                      //     .pushNamed('/details', arguments: jewList[index]);
+                      Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) =>  secHeroPage(index: selIndex,),)
+                          );
+                      //  Navigator.of(context).pushNamed('/details');
+                    },
+                    child: Hero(
+                      tag: index,
                       child: Container(
                         height: 700,
                         width: 250,

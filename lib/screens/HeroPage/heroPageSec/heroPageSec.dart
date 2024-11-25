@@ -2,17 +2,14 @@ import 'package:animation/screens/HeroPage/HeroPageFirst/HeroPageFirst.dart';
 import 'package:animation/utils/list.dart';
 import 'package:flutter/material.dart';
 
-class secHeroPage extends StatefulWidget {
-  const secHeroPage({super.key});
+class secHeroPage extends StatelessWidget {
+  final int index;
 
-  @override
-  State<secHeroPage> createState() => _secHeroPageState();
-}
+  const secHeroPage({required this.index, super.key});
 
-class _secHeroPageState extends State<secHeroPage> {
   @override
   Widget build(BuildContext context) {
-   var data = ModalRoute.of(context)!.settings.arguments as Map;
+    var data = ModalRoute.of(context)!.settings.arguments as Map;
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
@@ -42,7 +39,7 @@ class _secHeroPageState extends State<secHeroPage> {
             height: 20,
           ),
           Hero(
-            tag: 'photo${data[index]}',
+            tag: index,
             child: Center(
               child: Container(
                   height: 200,
@@ -58,7 +55,7 @@ class _secHeroPageState extends State<secHeroPage> {
                     borderRadius: BorderRadius.circular(20),
                     image: DecorationImage(
                       fit: BoxFit.fill,
-                      image: AssetImage(data['image']),
+                      image: AssetImage(jewList[index]['image']),
                     ),
                   )),
             ),
