@@ -1,4 +1,4 @@
-![sin2](https://github.com/user-attachments/assets/c2dbbd04-92e9-4c66-b3c4-3ccca3f7442a)# animation
+# animation
 
 A new Flutter project.
 
