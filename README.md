@@ -1,4 +1,4 @@
-# animation
+![sin2](https://github.com/user-attachments/assets/c2dbbd04-92e9-4c66-b3c4-3ccca3f7442a)# animation
 
 A new Flutter project.
 
@@ -29,5 +29,10 @@ https://github.com/user-attachments/assets/6420505a-5811-4458-be3b-33e09f86d1c2
 https://github.com/user-attachments/assets/6555c907-8b33-4084-83a1-5f99b0b6c1d2
 
 
+# Hero Widget using Sinchan 
+ <img src="https://github.com/user-attachments/assets/81875a07-bbc2-4f26-9be6-5991a769cef8" height=28% width=32%>
+  <img src="https://github.com/user-attachments/assets/12b74b0e-64f7-467b-9166-faec79435dcf" height=28% width=32%>
+
+https://github.com/user-attachments/assets/3fb60a68-a707-499c-99e5-aa1c1c8351f7
 
 
