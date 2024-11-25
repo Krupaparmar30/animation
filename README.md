@@ -30,6 +30,9 @@ https://github.com/user-attachments/assets/6555c907-8b33-4084-83a1-5f99b0b6c1d2
 
 
 # Hero Widget using Sinchan 
+
+Hero" is a widget that gracefully transitions from one screen to another. For instance, on a product listing page, clicking on a product's image triggers a smooth animation where the image flies to a new screen, revealing detailed information about the product .
+
  <img src="https://github.com/user-attachments/assets/81875a07-bbc2-4f26-9be6-5991a769cef8" height=28% width=32%>
   <img src="https://github.com/user-attachments/assets/12b74b0e-64f7-467b-9166-faec79435dcf" height=28% width=32%>
 
